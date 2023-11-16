@@ -103,3 +103,7 @@ h5 a:hover {
         position: relative;
     }
   }
+
+  .InnovaLabel {
+    color: #351111 !important;
+  }
