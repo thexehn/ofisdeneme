@@ -55,31 +55,28 @@
         </div>
     </section>
 
-    <form action="#" method="get">
-     <div class="container Innova-iletisim-Container rounded" style="overflow:hidden; text-align: center; background-color: white; height: 510px;">
-      <h2 style="position: relative; top:10px;">İLETİŞİM</h2>
+
+     <div class="container Innova-iletisim-Container rounded w-50" style="display: flex; flex-direction: column; justify-content: center; align-items: center; overflow:hidden; text-align: center; background-color: white; height: 510px;">
+      <form action="#" method="get">
+        <h2 style="position: relative; bottom: 40px;">Bize Ulaşın</h2>
       <div class="form-group" style="position: relative;">
-        <label for="text" class="InnovaLabel">İsim Soyisim:</label>
-        <input type="text" class="form-control" id="text" required>
-        <label for="email" class="InnovaLabel">Mail Adresiniz:</label>
-      <input type="email" class="form-control" id="email" required>
+        <input type="text" class="form-control rounded-pill" id="text" placeholder="İsim Soyisim" style="text-align:center; color: white; margin-top: 10px; background-color: rgb(221, 221, 221); width: 400px;" required>
+      <input type="email" class="form-control rounded-pill" id="email" placeholder="E-Posta" style="text-align:center; color: white; margin-top: 10px; background-color: rgb(221, 221, 221); width: 400px;" required>
       </div>
       <div class="form-group">
-        <label class="InnovaLabel">Konu:</label>
-      <input type="text" class="form-control" id="text" required>
+      <input type="text" class="form-control rounded-pill" id="text" placeholder="Konu" style="text-align:center;color: white; margin-top: 10px; background-color: rgb(221, 221, 221); width: 400px;" required>
       </div>
 
       <div class="form-group">
-        <label for="text" class="InnovaLabel">Mesajınız:</label>
-        <textarea class="form-control" rows="5" id="comment" name="text" required></textarea>
+        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="E-Posta" style="text-align:center; border-radius: 20px; color: white; margin-top: 10px; background-color: rgb(221, 221, 221); width: 400px;" required></textarea>
 
       </div>
       <div class="form-group">
         <button type="submit" class="btn btn-default rounded-pill" data-bs-toggle="modal" data-bs-target="#InnovaModal" style="background-color: #351111; color: white; margin-top: 20px;">Gönder</button>
       </div>
-
-    </div> 
     </form>
+    </div> 
+
 
     <div class="modal fade" id="InnovaModal" tabindex="-1" aria-labelledby="InnovaModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -89,7 +86,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-         Geri Dönüş, Belirtmiş olduğunuz E-posta Adresinize Gönderilecektir.
+         Geri Dönüş için E-Posta kutunuza bakabilirsiniz.
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Kapat</button>
